@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="0.33"
+            android:src="@drawable/bch1"
+            android:scaleType="fitXY"
+            android:onClick="onClickGame1"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="0.33"
+            android:src="@drawable/bch2"
+            android:scaleType="fitXY"
+            android:onClick="onClickGame2"/>
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="0.34"
+            android:src="@drawable/bch3"
+            android:scaleType="fitXY"
+            android:onClick="onClickGame3"/>
+
+    </LinearLayout>
+</ScrollView>
